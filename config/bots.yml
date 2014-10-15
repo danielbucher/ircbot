@@ -4,5 +4,10 @@ bot:
     freenode:
       address: irc.freenode.org
       name: Freenode
-      channels:
-        - '#cinch-bots'
+      channels:# Check http://irc.netsplit.de/channels/?chat=security
+        - '##security'
+        - '##networking'
+        - '#owasp'# Owasp is the free and open source software community: https://www.owasp.org/index.php/Main_Page
+        - 'corelan'# https://www.corelan.be
+        - 'archlinux-security'
+        - 'oss-security'
