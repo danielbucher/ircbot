@@ -1,0 +1,239 @@
+2014-10-15 16:45:00 -0400,##security,AR45,Virus?
+2014-10-15 16:57:58 -0400,##security,crazypyro,AR45: That's not rude. You are ignorant of even basic security knowledge like what Kali is and how to use a virtual machine.
+2014-10-15 17:01:04 -0400,##security,sartan,ar45 pyv8 is helpful in this pdf malware analysis tool to actually execute embedded js within the context of 'a pdf'
+2014-10-15 17:01:27 -0400,##security,sartan,i managed to get the malware in this pdf to run under pydetox but since it didn't actually have access to any of the acrobat form embedded data i was not able to craft the call home urll
+2014-10-15 17:11:45 -0400,##networking,jailbot,whats networking vs security?
+2014-10-15 17:24:29 -0400,##security,CrowT,http://www.thesecuritysetup.com/home/2014/10/1/hd-moore
+2014-10-15 17:39:17 -0400,##security,CheckDavid,So much for ##security
+2014-10-15 18:22:00 -0400,##security,Sling,"ponga2112: ""In the coming months, we hope to remove support for SSL 3.0 completely from our client products. "" ( http://googleonlinesecurity.blogspot.nl/2014/10/this-poodle-bites-exploiting-ssl-30.html )"
+2014-10-15 18:38:52 -0400,##security,JodaZ,"indeed, so any way it is done ""right"" means its actually undermining security, viccuad"
+2014-10-15 18:44:18 -0400,##security,viccuad,its possible to some extent. its impossible to secure someone against a determined attacker
+2014-10-15 19:48:10 -0400,##security,JodaZ,"ponga2112, no, its an oracle type attack"
+2014-10-15 20:02:43 -0400,#oss-security,Guest41206,is this the right place to ask about drupal sql injection exploit?
+2014-10-15 20:05:21 -0400,##security,njcomsec,oracle type attack?
+2014-10-15 20:23:48 -0400,##security,josef___,I use a Mac. No viruses.
+2014-10-15 20:37:46 -0400,##security,ma3str0,"lol webb1 if the server you are trying to exploit has been patched, you can no longer exploit it"
+2014-10-15 21:02:19 -0400,##security,lego2,"so, what do smart ppl do against DDOS these days?"
+2014-10-15 21:03:42 -0400,##security,Hydrogenum,lego2: depends on the type of DDoS
+2014-10-15 21:04:15 -0400,##security,lego2,"cloudflare are gay, are there any nongay anti-ddos companies?"
+2014-10-15 21:25:14 -0400,##security,liveAndLetDie,"You can get wormwood pretty easily liberal, but its not what you'd expect."
+2014-10-15 21:28:51 -0400,##security,Ansikt,Even the original absinthe didn't have enough wormwood to make people see illusions.  The idea of the green fairy / hallucinations was largely due to some other alcohol manufacturers lobbying against the drink.
+2014-10-15 21:55:56 -0400,##security,ryonaloli,"what's the best practice in situations like this, for server security?"
+2014-10-15 22:25:09 -0400,##security,n00per,"Hey guys, I was looking at a wordpress site code and found a Local File Disclosure vulnerability in a php file included in the theme, the problem is there is some text appended to the end of the path like this readfile($path.'/../include/conf.txt'); The server is running PHP 5.3.10 so it's not vulnerable to null byte nor path truncation. It doesn't have any special php wrappers like expect installed either. How do you think I can exploit thi"
+2014-10-15 22:26:39 -0400,##security,n00per,it's a wp site I'm pentesting but I need to exploit this vuln as far as I can
+2014-10-15 22:41:32 -0400,##security,liveAndLetDie,"n00per: Appologies if we accused you of being someone else, we kind of get that a lot... people being told ""sorry bro"" then coming back an hour later with a different nick slightly deeper into the computer they're attacking"
+2014-10-15 22:46:02 -0400,##security,n00per,"each vhost was a new attack vector, I managed to get access to one of them but like I said I cannot bypass open_basedir"
+2014-10-15 22:54:42 -0400,##security,lego2,"n00per: you sir, are a real hacker"
+2014-10-15 23:07:37 -0400,##security,ryonaloli,rryoumaa: set tls.security.min to 1 in about:config i think
+2014-10-15 23:12:36 -0400,##security,Fun1,liveAndLetDie: say hackers hacked sony db
+2014-10-15 23:20:59 -0400,##security,Fun,if u feel extra security oriented
+2014-10-16 00:40:57 -0400,##security,liberal,because online petitions aren't susceptible to hacking or other exploitation :/
+2014-10-16 01:27:25 -0400,##security,Cthulhon,Shh.  No mentioning security stuff here.
+2014-10-16 01:27:41 -0400,##security,STumbles,who said anything about security
+2014-10-16 01:28:31 -0400,##security,STumbles,the hacker 4chan did it
+2014-10-16 02:22:58 -0400,##networking,justanotheruser,"hmm. So I really like the features amazon has to set up security groups, disk size, etc. Is there something comparably advanced that is cheaper?"
+2014-10-16 02:50:55 -0400,##security,opk0de,Can anybody explain to me why malware writers put there polymorphic engine inside the infected binary? why dont they make it request the decryptor and encrypted binary from a C&C server?
+2014-10-16 03:01:42 -0400,##security,opk0de,you're virus like spagethi inside the host
+2014-10-16 03:02:06 -0400,##security,opk0de,even better find instructions that you can reuse like gadgets of a nop in the host binary and make the virus use them
+2014-10-16 03:03:37 -0400,##security,opk0de,if you make it randomly choose either one random buffer size... I really find it strange alot of malware authors dont use this alot
+2014-10-16 03:04:54 -0400,##security,ome,"opk0de: That would be a very specialized virus that only work for a small set of targets. So it again boils down to propagation rate. I would be very surprised if they don't exist though, for very specialized attacks though."
+2014-10-16 03:04:59 -0400,##security,liveAndLetDie,I think they find it easier to change the malware just enough to evade the signature
+2014-10-16 03:05:11 -0400,##security,liveAndLetDie,Theres just so much malware.
+2014-10-16 03:11:39 -0400,##security,opk0de,I want to be in a place full of people that care only about that. and dont care about how much they can make renting out ddos capability
+2014-10-16 03:39:10 -0400,##security,Boohbah,Le_viathan: 'free vpn' and security are mutually exclusive
+2014-10-16 04:02:04 -0400,##networking,^7heo_,DGMurdockIII: you can't base security on mac addresses =/
+2014-10-16 04:08:01 -0400,##networking,^7heo_,It's not like if it was a security hole...
+2014-10-16 04:35:41 -0400,#archlinux-security,rgacogne,ASA-201410-6 released for openssl: https://lists.archlinux.org/pipermail/arch-security/2014-October/000117.html
+2014-10-16 05:23:18 -0400,##networking,zapotah,Aliekezhi-TS: his question was about port-security mac learning
+2014-10-16 05:31:06 -0400,##networking,pclover,even if you client supports TLS 1.2 and you can do a downgrade attack
+2014-10-16 05:34:28 -0400,##networking,pclover,https://community.qualys.com/blogs/securitylabs/2014/10/15/ssl-3-is-dead-killed-by-the-poodle-attack
+2014-10-16 05:37:22 -0400,##networking,zapotah,"Security Labs: SSL 3 is dead, killed by the POO... |Qualys Community"
+2014-10-16 05:37:53 -0400,##networking,workingcats,just like they do with card security
+2014-10-16 05:40:24 -0400,##networking,workingcats,"day, i dont have any current example since i moved back to germany and it isn't quite THAT bad, but as long as i was still with HSBC UK, their security was far inferior to most forums even.."
+2014-10-16 05:41:18 -0400,##networking,gcbirzan,"but, it's okay, block my card for this 5USD a month recurring transaction, every month, because 'omg, security'"
+2014-10-16 05:42:30 -0400,##networking,workingcats,"day, bullshit anyways, only real security is a class 3 reader, end of discussion"
+2014-10-16 05:42:45 -0400,##networking,workingcats,sorry but anyone who doesnt understand this just has no business being involved in security
+2014-10-16 05:42:55 -0400,#archlinux-security,anthraxx42,rgacogne: yeah i started feeling kind of enthusiastic how we start to handle arch security. nice work all! :D
+2014-10-16 05:43:18 -0400,##networking,workingcats,not proper security. it only counts if the independent device displays amount and recipient
+2014-10-16 05:45:49 -0400,##networking,workingcats,"day, given the RIDICULOUS security situation on every phone platform i dont understand how anyone could so much as CONSIDER using phones for security"
+2014-10-16 05:47:40 -0400,##networking,collincd,"speaking of cards, we're just starting to get the ones with the security chips in the U.S."
+2014-10-16 07:49:22 -0400,##security,N30M1ND,"and Wh0, that part of the code 'looks' fine to me. The characters are whitelisted so there are very little vectors to attack it"
+2014-10-16 08:12:32 -0400,#archlinux-security,rgacogne,ASA-201410-7 released for drupal: https://lists.archlinux.org/pipermail/arch-security/2014-October/000118.html
+2014-10-16 08:16:42 -0400,##security,JodaZ,"_inte_, otherwise, know that fips is more of a detriment to security than it helps"
+2014-10-16 09:06:37 -0400,##security,Sarodj,hybrid dictionary attack
+2014-10-16 09:09:28 -0400,##security,bewees,Do you recommend in general to encrypt the home partition? I imagine that encrypting the home partition is helpful if I store the backup of /home on another system or if someone physically steals the disk. I think the encryption is useless if someone attacks the system directly and then just sniffs the passphrase which is entered on every boot when automounting?
+2014-10-16 09:14:55 -0400,##security,cym13,waqstar: You mean something like that ? http://securityreliks.wordpress.com/2010/08/20/devtcp-as-a-weapon/
+2014-10-16 09:41:40 -0400,##networking,taylanub,"anyone looked into Ian Grant's recent rants on how we should work towards better security in programming language implementations as well as network stacks?  it's somewhat complicated and he's prone to sounding paranoid, but there's some very interesting ideas there"
+2014-10-16 09:49:38 -0400,##security,Celerity,"JodaZ: Lol, that's so true. CSS3, HTML5, The Next Generation Web Page(tm)... checks out, they must have awesome security"
+2014-10-16 09:49:49 -0400,##security,Celerity,cue security leaks within a week
+2014-10-16 09:57:28 -0400,##security,liveAndLetDie,"Oh, its a security training company, their motto is Try Harder (tm)"
+2014-10-16 09:57:31 -0400,##security,liberal,liveAndLetDie: i hope you turned it on. i bet they just want to help mitigate security risks
+2014-10-16 10:04:57 -0400,##security,liveAndLetDie,"In this case, ""Your hard drive has been corrupted by internet hackers."""
+2014-10-16 10:06:08 -0400,##security,liveAndLetDie,and told be every error was the result of the hacker doing something bad
+2014-10-16 10:13:19 -0400,##security,liveAndLetDie,Shitty code is great for security
+2014-10-16 10:14:56 -0400,##security,liveAndLetDie,Thats pretty fatal for a security application...
+2014-10-16 10:25:40 -0400,##networking,cetex,"then hired a team of 10 people, 8 armed guards, at least one attack helicopter, 1 fiberoptic engineer and one person specialized in pressured pipes + measuring equipment."
+2014-10-16 10:27:03 -0400,##security,Celerity,but you're giving people the false sense of security
+2014-10-16 10:27:43 -0400,##security,liveAndLetDie,But if you're aware of the security risks you can do things right.
+2014-10-16 10:36:56 -0400,##security,njcomsec,"can someone recommend a safe proxy ite to use? by safe i mean free from malware..... i just want to use it to browse torrent sites.... i did search myself for one on google after visiting a few sites, weird shit started happening on windows so im pretty sure a lot of them have virus or something"
+2014-10-16 10:42:13 -0400,#owasp,ameya,i want to work on security related proj.. can anyone help me?
+2014-10-16 10:46:06 -0400,#owasp,ameya,"i am interested in js, c++,python etc.. I worked on firefox's security features before.."
+2014-10-16 10:47:02 -0400,#owasp,ameya,Hedgework: I would like to work on something related to cryptography or web security
+2014-10-16 10:54:32 -0400,#owasp,Hedgework,There's a lot that can and should be done to make crypto more accessible to non-hackers.
+2014-10-16 11:04:48 -0400,#owasp,Hedgework,"If you're interested in security, this isn't a bad place to be."
+2014-10-16 11:09:08 -0400,##security,TheJH,"tty0x80: the fake ""root exploit""?"
+2014-10-16 11:40:15 -0400,##networking,IanWizard,"Someone mentioned Ian grant ranting about networking library implementation security.  I got the highlight (on ""ian"") on my phone,  so I can't find it now.   Anyone have a link perhaps?  Or know who said it?"
+2014-10-16 11:45:11 -0400,##networking,catphish,"is SSLv3 inherently insecure, or can these padding exploits be prevented on the server side?"
+2014-10-16 11:46:09 -0400,##security,liveAndLetDie,"I ran a fuzzer to test out this fuzzing library, and it marked this as a ""success"". Any idea if/how it might be exploitable? Looks harmless to me..."
+2014-10-16 11:59:13 -0400,##networking,workingcats,"because they have demonstrated over at least 2 decades that they have no interest in security or fraud prevention, unless the state forces them through law or court decisions"
+2014-10-16 12:05:34 -0400,##security,liveAndLetDie,Kryczek: That was just me social engineering exploit to get you to tell me you're using Firefox ;)
+2014-10-16 12:15:06 -0400,##security,liveAndLetDie,Who needs timing attacks anyway.
+2014-10-16 12:25:03 -0400,##security,cruxeternus,http://www.theregister.co.uk/2014/10/15/openssl_ddos_vulns/
+2014-10-16 12:26:48 -0400,##security,cruxeternus,http://security.stackexchange.com/questions/1599/what-is-the-difference-between-ssl-vs-ssh-which-is-more-secure
+2014-10-16 12:30:09 -0400,##security,cruxeternus,I don't... I'm a security noob :/
+2014-10-16 12:32:21 -0400,##security,crazypyro,"cruxeternus: He's a well respected security researcher. He's one of the most prolific responders on SecEx. He recently got some more notoriety for basically figuring out the POODLE attack from the diffs (not that hard if you are a dedicated security researcher and have the diffs, but still an accomplishment)"
+2014-10-16 12:39:31 -0400,##security,crayon,"crazypro, any way to verify in splunk any attempted exploits?"
+2014-10-16 12:43:05 -0400,##security,|1N3|,"career advice #1: the best way to beat a hacker is to be a hacker. therefore, become a hacker."
+2014-10-16 12:47:16 -0400,##security,liveAndLetDie,https://twitter.com/SwiftOnSecurity/status/510082291125985280
+2014-10-16 12:48:20 -0400,##security,Kryczek,liveAndLetDie: Taylor Swift on security? lol
+2014-10-16 12:50:09 -0400,##security,cruxeternus,Can't stand her music.  Love her cybersecurity insight.
+2014-10-16 12:51:39 -0400,##security,Apachez,but what if I want cybersecurity outsight?
+2014-10-16 12:52:38 -0400,##security,liveAndLetDie,"Kryczek: If its anything like when I discovered SwiftOnSecurity, I apologize for the bomb I dropped on your productivity"
+2014-10-16 12:55:27 -0400,##security,Kryczek,liveAndLetDie: lol no worries I have to go anyway; do you know http://securityreactions.tumblr.com/ by the way?
+2014-10-16 12:55:53 -0400,##security,Apachez,https://twitter.com/SwiftOnSecurity/status/499089609821679616
+2014-10-16 12:55:56 -0400,##networking,Apachez,https://twitter.com/SwiftOnSecurity/status/499089609821679616
+2014-10-16 13:00:44 -0400,##security,liveAndLetDie,"""Trying to exploit a race condtion"" oh lawd..."
+2014-10-16 13:17:37 -0400,##networking,RoxRacoon,Can somone recommend a good certificate you can take for Network security online that doesn't cost way to much?
+2014-10-16 13:25:03 -0400,##security,Hydrogenum,"it's similar to BEAST or CRIME, but with the downgrade attack slightly worse"
+2014-10-16 13:25:33 -0400,##security,chutchut,supposedly hard to exploit unless on non-trusted aka public wifi etc
+2014-10-16 13:26:21 -0400,##security,JodaZ,"redalert, that iis worm is what blaster was compared to"
+2014-10-16 13:26:31 -0400,##security,Hydrogenum,Smrtz|nix: the main addition is they also showed how to force a downgrade from TLS1.2 to SSL3 to enable the attack
+2014-10-16 13:27:15 -0400,##security,liveAndLetDie,"""Is it as bad as the fingerd vuln Morris exploited?"""
+2014-10-16 13:34:07 -0400,##security,TheJH,Celerity: look at the security news of the last few days for an answer
+2014-10-16 13:37:47 -0400,##security,TheJH,"Celerity: and there were a bunch of other attacks on TLS and implemenations of it recently (depending on your definition of ""recently"")."
+2014-10-16 13:38:15 -0400,##security,TheJH,"Celerity: so using some proper, simple crypto behind TLS for high-security purposes might be a good idea"
+2014-10-16 13:39:49 -0400,##security,TheJH,Celerity: whether you really need that much security is another question :D
+2014-10-16 13:46:31 -0400,##security,soulisson,"Hi guys, i know this is not related to security but i'm thinking a server on ebay, i'd like to use for my virtual machine because most of the time i need several virtual machines to practice my l33t skills, so my question is what are you experiences regarding buying servers on ebay?"
+2014-10-16 14:22:20 -0400,##security,redcheckers,cruxeternus what about open source security stuff though... selinux is popular
+2014-10-16 14:22:35 -0400,##security,cruxeternus,"redcheckers: Open Source is good at a lot of things.  Some security stuff, sure."
+2014-10-16 14:24:20 -0400,##security,crazypyro,"redcheckers: Open source security is often necessary to ensure there are no backdoors, failures in cypto, etc."
+2014-10-16 15:14:19 -0400,##security,redcheckers,so no other security tips right?
+2014-10-16 15:30:42 -0400,##security,liveAndLetDie,And it'd probably be easier to just attack some other firmware rather than the BIOS/UEFI at that point.
+2014-10-16 15:33:55 -0400,##security,liveAndLetDie,"Hardening against attackers. Taking away potential sources of privilidge escallation, reducing your external attack surface."
+2014-10-16 15:35:08 -0400,##security,redcheckers,"liveAndLetDie: ok, so hardening against privelege escallation, apart from the web browser, and the iptables, the file system and partition mount permissions/ security labels, and the selinux?"
+2014-10-16 15:38:01 -0400,##security,avaritia,redcheckers: physical attack or via internets?
+2014-10-16 15:38:02 -0400,##security,XMPPwocky,definitely you need a threat model for any security
+2014-10-16 15:38:30 -0400,##security,XMPPwocky,if you want to protect against a targetted attack... you kinda can't
+2014-10-16 15:39:06 -0400,##security,TheJH,"redcheckers: oooh, wifi security? have a look at http://thejh.net/written-stuff/want-to-use-my-wifi?"
+2014-10-16 15:39:08 -0400,##security,redcheckers,"XMPPwocky: so my threat model is attackers on the lan, and using fake wifi hotspots."
+2014-10-16 15:42:38 -0400,##security,liveAndLetDie,"redcheckers: If you've logged into the server before, an attempted MiTM attack would result in your seeing a warning."
+2014-10-16 15:45:26 -0400,##security,redcheckers,"and 3, hope that outbound traffic is not prone to other attackers"
+2014-10-16 15:57:27 -0400,##networking,catphish,"my guess, that dns server has an odd security policy and doesn't allow you access to resolve stuff"
+2014-10-16 16:04:54 -0400,##security,lego2,"redcheckers: sorry bro wev got a hacker trying to crack our system, im being puled into an incident.  check wikipedia?"
+2014-10-16 16:06:14 -0400,##security,redcheckers,lego2 :( can you ask that hacker to give me some security tips when he has spare time?
+2014-10-16 16:11:39 -0400,##security,lego2,"redcheckers: i dont know much about network security, but i'm pretty good at playing Doom II"
+2014-10-16 16:14:03 -0400,##security,liveAndLetDie,"TheJH: Having trouble finding a reference, but you can do the thing where the user thinks they're copying one command but actually paste another without any JS, just with Unicode. I velieve the exploit I saw used \b equivalents to change the meaning of the command."
+2014-10-16 16:17:40 -0400,##security,lego2,tcb^ll3r: you know who taught me to play urban terror?  an ATM machine hacker LOL
+2014-10-16 16:19:14 -0400,##security,lego2,"honestly, you can learn so much about security just hanging around this channel"
+2014-10-16 16:57:49 -0400,##security,linuxthefish,will i gain increased security by using a VPN all the time?
+2014-10-16 16:58:42 -0400,##security,Schalla,"I would say no regarding security, but you are more anonymous."
+2014-10-16 16:58:46 -0400,##security,tcb^ll3r,depends what you mean by security
+2014-10-16 17:06:45 -0400,##security,crazypyro,this ctf is more of a brain puzzle than a security test
+2014-10-16 17:10:58 -0400,##networking,cetex,"jjavaholic: that's a bit weird, but could be due to routing issues, or security issues (it's blocked)"
+2014-10-16 17:24:48 -0400,##security,rryoumaa,"for extra security, you double-encrypt with caesar rotation"
+2014-10-16 17:26:02 -0400,##networking,dogbert2,"bwhahaha: The FBI on Wednesday issued a private warning to industry that a group of highly skilled Chinese government hackers was in the midst of a long-running campaign to steal valuable data from U.S. companies and government agencies  (ummmm, this is no secret, they've been doing this for at least the last 10-12 years)"
+2014-10-16 17:28:08 -0400,##security,tcb^ll3r,I got to meet t\some super oldschool hacker at bsides
+2014-10-16 17:31:06 -0400,##security,liveAndL1tDie,Hacker wargames
+2014-10-16 17:34:47 -0400,##security,lego2,"in america, yr brain is more relaxed to think security forces protect you.  in soviet russia, security forces brain you!!"
+2014-10-16 17:44:09 -0400,##security,lego2,"hey more advice for young hackers.  learn to program.  after that, in five years security will be mostly on phones.  in ten years security will be mostly with drones.  in twenty years, it will be space drones"
+2014-10-16 18:05:26 -0400,##security,liveAndL1tDie,"""I liken [Chinese hackers] a bit to a drunk burglar. They're kicking in the front door, knocking over the vase, while they're walking out with your television set. They're just prolific. Their strategy seems to be: We'll just be everywhere all the time. And there's no way they can stop us."""
+2014-10-16 18:07:06 -0400,##security,vhlfd,Hackers.
+2014-10-16 18:09:00 -0400,##security,liveAndL1tDie,"Eren97: I've seen worse, but that doesn't inspire confidence in their security"
+2014-10-16 18:12:58 -0400,##security,IsNotMyIP,"Hi, i'm reading about TheHackerAcademy courses, THA, someone know something about  it? is it worth it?"
+2014-10-16 18:21:06 -0400,##security,lego2,IsNotMyIP: do you know how to code?  if not most hacker courses will be a complete wash
+2014-10-16 18:24:32 -0400,##networking,jeev,"jjavaholic, that is not a normal lsp provider, that looks like malware."
+2014-10-16 19:21:23 -0400,##security,lego2,"hey, security question"
+2014-10-16 19:23:11 -0400,##security,N30M1ND,n0p3 br0. I've read the one from trail of bits and hackers hut
+2014-10-16 19:25:48 -0400,##security,lego2,i kind of stay away from memory based exploits
+2014-10-16 19:31:09 -0400,##security,lego2,"young ppl are more into facebook these days than they are in setting up elite hacker gangs, LOL"
+2014-10-16 19:43:22 -0400,##security,lego2,"N30M1ND: which means that their network is crawling with virus, LOL"
+2014-10-16 19:49:51 -0400,##security,lego2,"yeah, i ran a data security company for a few years"
+2014-10-16 19:59:11 -0400,##security,lego2,N30M1ND: a hacker can have no friends
+2014-10-16 20:00:21 -0400,##security,lego2,"N30M1ND: but they did not, for example ever manage to catch the author of the conficker virus"
+2014-10-16 20:00:51 -0400,##security,N30M1ND,"STumbles, I agree and lego2, the conficker virus I might guess some russians"
+2014-10-16 20:04:19 -0400,##security,liveAndLetDie,Can't do something without Mitnick having done it in some form or another. Wasn't much for writing exploits though I suppose.
+2014-10-16 20:05:49 -0400,##security,joe1812,does this channel give security advice?
+2014-10-16 20:06:16 -0400,##security,joe1812,was just searching for security helping channels.
+2014-10-16 20:07:23 -0400,##security,liveAndLetDie,Are those your severs its attacking?
+2014-10-16 20:12:15 -0400,##security,liveAndLetDie,"2. Reinstall and set up those apps. If you copy over config files and stuff, make sure they don't have fun surprises like added users for the hackers to crawl back in."
+2014-10-16 20:14:38 -0400,##security,lego2,virus bad!  bad!
+2014-10-16 20:17:30 -0400,##security,toothe,does anyone know that document that has all the information security data types that are categorized by FIPS 199?
+2014-10-16 20:22:05 -0400,##security,ma3str0,N30M1ND: i had sshd listening on port 80 when i was at school because the classrooms had 22 outbound blocked. my sshd logs were full of ISS/apache exploit attempts
+2014-10-16 20:25:53 -0400,##security,N30M1ND,liveAndLetDie: unless they run exploits to abuse the clipboard or such... I am afraid they would jump to the host OS
+2014-10-16 20:33:48 -0400,##security,lego2,"a little bit of malware is good for your servers, helps keep the antivirus on its toes"
+2014-10-16 20:34:43 -0400,##security,liveAndLetDie,"Linux ""antivirus"" doesn't do anything to remove it though."
+2014-10-16 20:36:32 -0400,##security,liveAndLetDie,it looks like an RDP cracker
+2014-10-16 20:59:07 -0400,##security,CoJaBo__,security*
+2014-10-16 21:30:44 -0400,##security,ryao-phone,Do you work for am organization interested in discrediting people who point out security issues?
+2014-10-16 21:31:28 -0400,##security,ma3str0,"you're ""security issue"" is that your phone can be updated"
+2014-10-16 21:32:04 -0400,##security,mrjiggles,"The ""security issue"" is that arbitrary software can be installed on your phone by a corporation that colludes with intelligence agencies."
+2014-10-16 21:34:26 -0400,##security,ma3str0,worrying about security and privacy is important
+2014-10-16 21:37:34 -0400,##security,ryao-phone,ma3str0: I think you are trying to lull people into a false sense of security. :/
+2014-10-16 21:40:28 -0400,##security,ryao-phone,ma3str0: You are telling people to ignore exploit vectors and using strawmans to do it.
+2014-10-16 21:40:54 -0400,##security,njcomsec,"as soon as you feel a sense of security, you just lost your security"
+2014-10-16 22:03:21 -0400,##security,liveAndLetDie,SwiftOnSecurity tweeted a plug for Taylor Swift's music
+2014-10-16 22:59:22 -0400,##security,sartan,Anyone do physical security assessment stuff?
+2014-10-16 23:00:34 -0400,##security,_FBi,"sartan, armed security, yes"
+2014-10-16 23:12:00 -0400,##security,_FBi,I can plug usb in -- It's not logged in -- no firewire attack
+2014-10-16 23:31:00 -0400,##security,_FBi,"haha#2 I had a Hiren's boot dvd in my work bag.  I do physical security, not computer.  I remembered about the dvd, raced over to get it.  Found it!  Now I just need to find some glue to put all 50 pieces back together"
+2014-10-16 23:31:36 -0400,##security,lego2,"_FBi: if I may, what draws you to this channel if yr phyical security?"
+2014-10-16 23:46:43 -0400,##security,_FBi,Germany isn't 'computer security' freindly
+2014-10-16 23:50:09 -0400,##security,Atroc,_FBi: nothing is safe. there are just different grades of insecurity
+2014-10-17 00:07:09 -0400,##security,MisterE,http://arstechnica.com/security/2014/10/fbi-director-to-citizens-let-us-spy-on-you/
+2014-10-17 00:18:27 -0400,##security,doomrobo,"what do you mean? I've got my own complaints, but interestingly, they stem in part from the inherent security measures in place"
+2014-10-17 02:52:15 -0400,##security,evil_dan2wik,but could also have been attacked from wifi
+2014-10-17 06:07:24 -0400,##security,naypra,what are the latest research topics in information security
+2014-10-17 07:29:59 -0400,##networking,rudolf_,"Do wifi password crackers use brute force or something else? I mean how difficult is it for someone to crack a password like ""#&EncrypteD100"""
+2014-10-17 08:34:31 -0400,##security,evil_dan2wik,"""Many antiviruses say that the installer is a trojan, just ignore them."""
+2014-10-17 09:33:37 -0400,##networking,WrinkledCheese,...testing DDoS and DDoS mitigation...
+2014-10-17 09:34:10 -0400,##networking,carrollr,ahhhhh ddos
+2014-10-17 09:34:37 -0400,##networking,WrinkledCheese,I don't want to be saturating out Internet connection while testing DoS over a 10G network with tools able to achieve 9.9Gb of traffic on two attackers.
+2014-10-17 10:35:35 -0400,##security,otakbeku,"thanks rokuroku, which is more important, talent or perseverance? there are kids who amazed me. They got invited to the DefCon to do some demostration on exploiting a bug"
+2014-10-17 10:51:21 -0400,##security,soulisson,"otakbeku, yes sslstrip works on SSL and TLS, sslstrip is more a downgrade attack from https to http"
+2014-10-17 11:23:48 -0400,##networking,carrollr,http://candlesandghosts.files.wordpress.com/2009/02/attack2.jpg?w=450&h=337
+2014-10-17 12:04:49 -0400,##networking,workingcats,removing malware is a questionable exercise to begin with
+2014-10-17 12:28:19 -0400,##networking,cetex,i've had enough DDoS towards our DHCP Server from marketing that i've just setup a /18 on each lan :>
+2014-10-17 12:29:06 -0400,##networking,MINIMAN10000,how is marketing ddosing your dhcp?
+2014-10-17 12:29:33 -0400,##networking,MINIMAN10000,125k files down 62 tracking cookies are putting my security at risk.
+2014-10-17 12:39:56 -0400,##networking,daemonkeeper,"skyroveRR: SSLv3 is over 10 years old and is known to have severe security problems, by latest as of this week."
+2014-10-17 12:40:30 -0400,##networking,MINIMAN10000,and im already running a virus scan
+2014-10-17 12:46:41 -0400,##networking,daemonkeeper,Some_Person: https://community.qualys.com/blogs/securitylabs/2014/10/15/ssl-3-is-dead-killed-by-the-poodle-attack
+2014-10-17 12:46:58 -0400,##security,lego2,internet explorer 6 - now with improved security over ie5!
+2014-10-17 12:47:10 -0400,##security,epitron,what a garbagey security model
+2014-10-17 12:47:54 -0400,##security,epitron,do any of you use android mods to keep your phone's security in check?
+2014-10-17 12:54:29 -0400,##networking,MINIMAN10000,no firewall under security
+2014-10-17 13:20:08 -0400,##networking,MINIMAN10000,looks like virus scan is complete
+2014-10-17 13:26:16 -0400,##networking,sudormrf,"MINIMAN10000, dat virus"
+2014-10-17 13:28:18 -0400,##networking,zapotah,"if problem persists, most likely a virus and i would re-install OS"
+2014-10-17 13:33:04 -0400,##networking,sudormrf,I have yet to meet a virus that I could not completely eliminate from a machine
+2014-10-17 13:36:18 -0400,##networking,sudormrf,"but if this is a virus, he/she likely isn't running linux.  this isn't to say that there are no virii for linux, just that you *rarely* see them on client machines in the wild"
+2014-10-17 13:36:30 -0400,##networking,sudormrf,I would much rather kill the virus myself
+2014-10-17 13:36:57 -0400,##networking,Netsh,I've also heard of viruses survivng a format/re-install
+2014-10-17 13:37:12 -0400,##networking,MINIMAN10000,you mean bios viruses?
+2014-10-17 13:37:51 -0400,##networking,sudormrf,"or yes, network share, or BIOS virus."
+2014-10-17 13:53:53 -0400,##security,lego2,"oh sure, pick on him for his poor security management, his economic difficencies and his inability to relate to other world leaders"
+2014-10-17 14:16:33 -0400,##security,voidfire,ethical hacking / like security and stuff
+2014-10-17 15:02:25 -0400,##security,Atroc,autrilla__: if you need it just for yourself use a selfmade cert. if its for 0815 users use the cheapest. it doesnt care which you take. govs can break it and 99% of hackers not
+2014-10-17 15:34:37 -0400,##security,tty0x80,"obsed, lookup hackerone and bugcrowd"
+2014-10-17 15:50:46 -0400,##networking,Owner,for efficiency and 'security'
+2014-10-17 16:08:25 -0400,##networking,rivarun,much like most infections and viruses
+2014-10-17 16:20:35 -0400,##networking,bezaban,'information security management system'
+2014-10-17 16:24:14 -0400,##security,likecolacola,Lara show no fair play on ##security
+2014-10-17 16:46:27 -0400,##security,likecolacola,"Lara, in need for some #off-topic way to reach you, just a couple of questions but feels like abusing the way I use #security for everything except Security..."
+2014-10-17 16:47:28 -0400,##networking,pclover,and being known for ddos mitigation stuff
+2014-10-17 17:10:33 -0400,##networking,tetrah,"Netsh, Get one more person and you can worm wrestle."
+2014-10-17 18:04:52 -0400,##security,dances,"Question regarding Poodle attack: SSL LABS report shows we have ssl3 enabled, yet for Poodle Attack it reports ""No, mitigated"" im wondering what this means?"
+2014-10-17 18:20:26 -0400,##networking,hesperaux,mac address spoofing would be a security risk there i'd think
+2014-10-17 18:21:46 -0400,##security,bezaban,filed a security incident wrt problems if something is discovered wrt tls1
+2014-10-17 20:17:37 -0400,##security,infosec_fan,i want to be a hacker
+2014-10-17 20:18:38 -0400,##security,cosinus,whats a hacker
