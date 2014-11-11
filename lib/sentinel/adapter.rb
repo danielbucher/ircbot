@@ -17,6 +17,7 @@ module Sentinel
       @@outputs = YAML.load_file('config/output.yml')['outputs'] if (@@outputs.nil? || @@outputs.empty?)
 
       (@@outputs.nil? || @@outputs.empty?) ? ['CSV'] : @@outputs
+      @@outputs.map{ |output| eval "#{output}Adapter" }
     end
 
     # Returns the path where to save the ouput files.
@@ -53,57 +54,32 @@ module Sentinel
     protected
 
     def self.save_message(event)
-      self.formats.each do |output|
-        case output
-        when 'CSV'
-          CSVAdapter.save_message(event)
-        else
-          CSVAdapter.save_message(event)
-        end
+      self.formats.each do |adapter|
+        adapter.save_message(event)
       end
     end
 
     def self.save_private_messages(event)
-      self.formats.each do |output|
-        case output
-        when 'CSV'
-          CSVAdapter.save_private_messages(event)
-        else
-          CSVAdapter.save_private_messagesge(event)
-        end
+      self.formats.each do |adapter|
+        adapter.save_private_messages(event)
       end
     end
 
     def self.save_join(event)
-      self.formats.each do |output|
-        case output
-        when 'CSV'
-          CSVAdapter.save_join(event)
-        else
-          CSVAdapter.save_join(event)
-        end
+      self.formats.each do |adapter|
+        adapter.save_join(event)
       end
     end
 
     def self.save_leaving(event)
-      self.formats.each do |output|
-        case output
-        when 'CSV'
-          CSVAdapter.save_leaving(event)
-        else
-          CSVAdapter.save_leaving(event)
-        end
+      self.formats.each do |adapter|
+        adapter.save_leaving(event)
       end
     end
 
     def self.save_message_with_keyword(message)
-      self.formats.each do |output|
-        case output
-        when 'CSV'
-          CSVAdapter.save_message_with_keyword(message)
-        else
-          CSVAdapter.save_message_with_keyword(message)
-        end
+      self.formats.each do |adapter|
+        adapter.save_message_with_keyword(message)
       end
     end
 
