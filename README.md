@@ -30,5 +30,5 @@ the terms of the MIT License. See the LICENSE file for more details.
 ### Authors
 
 
-Daniel Bucher (daniel.bucher88 at gmail.com)
+Daniel Bucher (daniel.bucher88 at gmail.com)  
 Joenio Costa (joenio at colivre.coop.br)
